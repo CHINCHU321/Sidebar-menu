@@ -23,6 +23,10 @@ body{
   width: 100%;
   height: 100%;
   transition: all 0.3s linear;
+  transform: translate(-100%);
+}
+.show-sidebar{
+  transform: translate(0);
 
 }
 .fa-bars{
@@ -32,6 +36,29 @@ right: 3rem;
 color:#e94949;
 font-size: 1.5rem;
 cursor: pointer;
+}
+
+.fa-bars:hover{
+  color: black;
+}
+.fa-times{
+  font-size: 1.5rem;
+  color: #e94949;
+  cursor: pointer;
+}
+.fa-times:hover{
+color: black;
+}
+
+.sidebar-header{
+  display: flex;
+ justify-content:space-between;
+ align-items: center;
+ padding: 1rem 0;
+ padding-right: 2.5rem;
+}
+.logo{
+  margin-left: -25px;
 }
 
 @media (min-width: 676px){
