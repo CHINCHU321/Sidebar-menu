@@ -5,6 +5,3 @@ const closingButton = document.querySelector(".fa-times");
 bars.addEventListener("click", ()=>{
   sidebar.classlist.toggle('show-sidebar');
 })
-closingButton.addEventListener("click", () => {
-  sidebar.classList.remove("show-sidebar");
-});
